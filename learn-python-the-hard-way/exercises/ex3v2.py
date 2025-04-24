@@ -26,8 +26,9 @@ print("\n----- Summary -----") #\n will start a new line
 print("Monthly Profit:", round(monProf, 2)) # rounds by 2 deimcal places
 print("Estimated Weekly Profit:", round(weekProf, 2))
 
-# Compare profit to income using greater or eqaul and prints stamement instead of true or false
+# Financial status, compares income to bills
 if monProf >= income:
-    print("Profit is greater than or equal to total income.")
+    print("Yeah baby, yeah! You’re living large—mojo fully intact.")
 else:
-    print("Profit is less than total income.")
+    print("Oof, that’s not groovy baby... your finances have lost their mojo.")
+
