@@ -29,7 +29,7 @@ print("Monthly Profit:", round(monProf, 2), "Yeah baby!") #rounds two decimal po
 print("Estimated Weekly Profit:", round(weekProf, 2), "Shagadelic!")
 
 # Financial status compares income to bills
-if monProf >= income:
+if monProf <= income:
     print("Yeah baby, yeah! You’re living large—mojo fully intact.")
 else:
     print("Oof, that’s not groovy baby... your finances have lost their mojo.")
