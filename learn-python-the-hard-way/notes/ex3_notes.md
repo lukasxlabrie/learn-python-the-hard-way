@@ -11,3 +11,4 @@ List of Operators
 <= less than equal
 >= greater than equal
 
+All greater/less will print as true or false
