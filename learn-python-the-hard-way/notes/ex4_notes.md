@@ -10,8 +10,9 @@ _ underscores are ok to sepreate words
 
 camelCase is what im used to so will lilkey use this
 
+= is called eqauls, used to name data
+
 Syntax exmaple:
 
 variableOne = 1
-variableInout = input(Tell me a scret())
 variableString = ("This is a string of text")
