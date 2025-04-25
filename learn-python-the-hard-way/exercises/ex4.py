@@ -7,7 +7,7 @@ drivers = 30
 cars_not_driven = cars - drivers
 cars_driven = drivers
 carpool_capacity = cars_driven * space_in_a_car
-average_passangers_per_car - passnagers/cars_driven
+average_passangers_per_car = passnagers/cars_driven
 
 #uses the vars and interactions (also vars) to print
 #use , to add car to string
