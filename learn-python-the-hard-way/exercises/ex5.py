@@ -21,5 +21,5 @@ total = age + height + weight
 print(f"if I add {age}, {height} and {weight}, I get {total}.")
 
 # prints metric versions
-print(f"My weight in kilograms is {weightConvrsn} kgs.")
+print(f"My weight in killograms is {weightConvrsn} kgs.")
 print(f"My height in centimeters is {heightConvrsn} cm.")
