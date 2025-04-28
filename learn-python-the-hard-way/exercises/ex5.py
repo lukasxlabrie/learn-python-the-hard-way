@@ -6,9 +6,8 @@ eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
 
-weightConvrsn = weight * 0.45359237 # converts to kg
-heightConvrsn = height * 2.54 # converts to cm
-
+weightConvrsn = round(weight * 0.45359237, 1)
+heightConvrsn = round(height * 2.54, 1)
 
 print (f"Let's talk about {name}.")
 print (f"He's {height} inches tall.")
@@ -22,5 +21,5 @@ total = age + height + weight
 print(f"if I add {age}, {height} and {weight}, I get {total}.")
 
 # prints metric versions
-print (f"My weight in kilograms is: {weightConvrsn}kgs.")
-print(f"My height in centimeters is {heightConvrsn}cm.")
+print(f"My weight in kilograms is {weightConvrsn} kgs.")
+print(f"My height in centimeters is {heightConvrsn} cm.")
