@@ -5,7 +5,7 @@ days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "\nJan\nFeb\nMar\nApr\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
 # \n starts a new line
 
-# similar to an f string but
+# using a , adds a space and converts to a string
 print ("Here are the days:" ,days)
 print("Here are the months:", months)
 
