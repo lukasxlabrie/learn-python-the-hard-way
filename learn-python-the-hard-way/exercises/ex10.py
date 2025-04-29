@@ -1,8 +1,10 @@
-tabby_cat = "\tI'm tabbed in."
-persian_cat = "I'm split\non a line."
-backslash_cat = "I'm \\ a \\ cat."
+# string vars
+tabby_cat = "\tI'm tabbed in." # /t tabs
+persian_cat = "I'm split\non a line." # \n starts a new line
+backslash_cat = "I'm \\ a \\ cat." # \\ enters a \ mid line
 
-fat_cat = """
+# triple " print as written
+fat_cat = """ 
 I'll do a list:
 \t* Cat food
 \t* Fishes
