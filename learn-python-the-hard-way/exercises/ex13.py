@@ -21,3 +21,5 @@ print("Script name:", script)
 print("First argument:", first)
 print("Second argument:", second)
 print("Third argument:", third)
+
+answer = input("Type anything", end=' ')
