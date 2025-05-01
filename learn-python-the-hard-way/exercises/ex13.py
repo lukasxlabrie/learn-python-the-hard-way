@@ -1,11 +1,23 @@
-# this tells the program that we will be using argv, which is on my sysyem later in the program
-from sys import argv
+# To run this script, type in your terminal:
+#   python script.py <first> <second> <third>
+# For example:
+#   python script.py apple banana cherry
+# This means:
+#   first  = "apple"
+#   second = "banana"
+#   third  = "cherry"
 
-# argv has 4 variables, assigned left to rightß
+from sys import argv # Grab only 'argv' from Python’s built-in 'sys' module so we can read the words you type after the script name
+
+# 'argv' is a list that holds what you type after 'python script.py'
+#   argv[0] is always the script name (script.py)
+#   argv[1] is the first word you type
+#   argv[2] is the second word
+#   argv[3] is the third word
 script, first, second, third = argv
 
-# prints that use whats stored in argv 
-print ("This script is called:", script)
-print ("Your first variable is:", first)
-print ("Your second variable is:", second)
-print ("Your third variable is:", third)
+# Print out each value directly
+print("Script name:", script)
+print("First argument:", first)
+print("Second argument:", second)
+print("Third argument:", third)
