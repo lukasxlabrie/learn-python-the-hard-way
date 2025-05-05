@@ -2,7 +2,7 @@
 from sys import argv
 
 # Unpack script name and user-provided name (run as: python ex14.py Gretchen)
-script, user_name = argv
+script, user_name, age = argv
 
 # Prompt indicator for user input
 prompt = ">"
@@ -27,5 +27,6 @@ computer = input(prompt)
 print(f"""
 Alright, you said '{likes}' about liking me.
 You live in {lives}. Not sure where that is.
+You are {age} years old? 
 And you have a {computer} computer. Nice.
 """)
