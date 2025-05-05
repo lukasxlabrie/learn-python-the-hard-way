@@ -1,0 +1,5 @@
+- **argv**: List of command-line arguments (`from sys import argv`).
+- **input()**: Waits for and returns user input.
+- **prompt**: Custom string shown before `input()` (e.g., `"> "`).
+- **f-strings**: Quick way to include variables in strings, e.g., `f"Hello, {name}"`.
+- **print()**: Displays text or values in the console.
