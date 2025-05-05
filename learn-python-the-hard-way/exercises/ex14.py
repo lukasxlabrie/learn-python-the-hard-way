@@ -1,7 +1,7 @@
 # Pulls the argument for user_name from command-line
 from sys import argv
 
-# Unpack script name and user-provided name (run as: python ex14.py Alice)
+# Unpack script name and user-provided name (run as: python ex14.py Gretchen)
 script, user_name = argv
 
 # Prompt indicator for user input
