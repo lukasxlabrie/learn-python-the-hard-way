@@ -2,17 +2,17 @@
 from sys import argv
 
 # The script will use user_name as the argument variable
-script, user_name = argv
+script_name, user_name = argv
 
 # Prompt indicator for user input
 prompt = "> "
 
-# Greet the user and display the script name
-print(f"Hi {user_name}, I'm the {script} script.")
+# Greet the user and explain the script
+print(f"Hi {user_name}, I'm the {script_name} script.")
 print("I'd like to ask you a few questions.")
-print(f"Do you like me, {user_name}?")
 
-# Ask for user input on likes
+# Ask if the user likes the script
+print(f"Do you like me, {user_name}?")
 likes = input(prompt)
 
 # Ask where the user lives
