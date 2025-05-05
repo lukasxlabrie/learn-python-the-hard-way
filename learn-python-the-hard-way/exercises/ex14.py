@@ -1,31 +1,31 @@
-# Pulls the argument from system input for later use
+# Pulls the argument for user_name from command-line
 from sys import argv
 
-# The script will use user_name as the argument variable
-script_name, user_name = argv
+# Unpack script name and user-provided name (run as: python script.py Alice)
+script, user_name = argv
 
 # Prompt indicator for user input
-prompt = "> "
+prompt = ">"
 
-# Greet the user and explain the script
-print(f"Hi {user_name}, I'm the {script_name} script.")
+# Greet and ask questions
+print(f"Hi {user_name}, I'm the {script} script.")
 print("I'd like to ask you a few questions.")
 
-# Ask if the user likes the script
+# Ask if they like the script
 print(f"Do you like me, {user_name}?")
 likes = input(prompt)
 
-# Ask where the user lives
+# Ask where they live
 print(f"Where do you live, {user_name}?")
 lives = input(prompt)
 
-# Ask about the user's computer
+# Ask about their computer
 print(f"What kind of computer do you use, {user_name}?")
 computer = input(prompt)
 
-# Summarize the responses
+# Summarize the answers
 print(f"""
-Alright, so you said '{likes}' about liking me.
+Alright, you said '{likes}' about liking me.
 You live in {lives}. Not sure where that is.
 And you have a {computer} computer. Nice.
 """)
