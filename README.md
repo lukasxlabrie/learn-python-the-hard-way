@@ -10,7 +10,8 @@ This is my personal journey through *Learn Python the Hard Way* by Zed A. Shaw. 
 │   │   └── ex01.py
 │   ├── notes/
 │   │   └── ex01_notes.md
-
+|   ├── powers projects/
+│   │   └── powersFinancial.py
 ```
 ## Goals
 - Complete all exercises from the book  
