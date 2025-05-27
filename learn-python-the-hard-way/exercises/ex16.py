@@ -1,10 +1,10 @@
 # takes input to assign to variable
 from sys import argv
 
-# variables will be the script and a filename
+# variables will be the script and a filename (needs to be a real filename)
 script, filename = argv
 
-# prints strings and explains that we're erasing filename; placeholder, need to use actual file name
+# prints strings and explains that we're erasing filename
 print(f"We're going to erase {filename}.")
 
 # how to cancel
