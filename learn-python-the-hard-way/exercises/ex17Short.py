@@ -7,9 +7,6 @@ from os.path import exists
 # defines argv as the script name, the source file, and the destination file
 script, from_file, to_file = argv
 
-# prints the names of the source and destination files
-print(f"Copying from {from_file} to {to_file}")
-
 # opens the source file and reads its contents into a variable
 in_file = open(from_file)
 indata = in_file.read()
