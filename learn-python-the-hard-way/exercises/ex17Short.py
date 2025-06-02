@@ -20,13 +20,8 @@ Ready, hit RETURN to continue, CTRL-C to abort.
 """)
 input()
 
-# opens the destination file in write mode and writes the data
+# opens the destination file in write mode, writes the data, closes and saves
 out_file = open(to_file, 'w')
 out_file.write(indata)
-
-# confirms completion
-print("Alright, all done.")
-
-# closes both files to save changes and free resources
 out_file.close()
 in_file.close()
