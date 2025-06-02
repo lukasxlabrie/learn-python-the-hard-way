@@ -25,9 +25,6 @@ input()
 out_file = open(to_file, 'w')
 out_file.write(indata)
 
-# confirms completion
-print("Alright, all done.")
-
 # closes both files to save changes and free resources
 out_file.close()
 in_file.close()
